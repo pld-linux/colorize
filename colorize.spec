@@ -18,8 +18,8 @@ own colors, you can simply modify your config file in your home
 directory, or system-wide (/etc/colorize).
 
 %description -l pl
-Colorize jest krótkim skryptem w Perlu który umo¿liwi Ci pokolorowanie
-logów. Mo¿esz u¿ywaæ w³asnych schematów kolorów modyfikuj±c swój
+Colorize jest krótkim skryptem w Perlu umo¿liwiaj±cym pokolorowanie
+logów. Mo¿na u¿ywaæ w³asnych schematów kolorów modyfikuj±c swój
 w³asny plik konfiguracyjny lub ogólnosystemowy.
 
 %prep
