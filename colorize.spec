@@ -12,12 +12,12 @@ Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is a short perl script to colorize' your logs. You can use your
+This is a short perl script to colorize your logs. You can use your
 own colors, you can simply modify your config file in your home
 directory, or system-wide (/etc/colorize).
 
 %description -l pl
-Colorize jest krótkim skryptem w perlu który umo¿liwi Ci pokolorwanie
+Colorize jest krótkim skryptem w perlu który umo¿liwi Ci pokolorowanie
 logów. Mo¿esz u¿ywaæ w³asnych schematów kolorów modyfikuj±c swój
 w³asny plik konfiguracyjny lub ogólnosystemowy.
 
@@ -37,6 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/colorize.pl
-%{_mandir}/man1/colorize.pl.1.gz
+%{_mandir}/man1/colorize.pl.1*
 %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/colorizerc
 %doc changelog.gz copyright examples/ README THANKS TIPS TODO
