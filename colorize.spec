@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Perl script to colorize logs
-Summary(pl):	Skrypt w perlu do kolorowania logów
+Summary(pl):	Skrypt w Perlu do kolorowania logów
 Name:		colorize
 Version:	0.3.4
 Release:	1
@@ -18,7 +18,7 @@ own colors, you can simply modify your config file in your home
 directory, or system-wide (/etc/colorize).
 
 %description -l pl
-Colorize jest krótkim skryptem w perlu który umo¿liwi Ci pokolorowanie
+Colorize jest krótkim skryptem w Perlu który umo¿liwi Ci pokolorowanie
 logów. Mo¿esz u¿ywaæ w³asnych schematów kolorów modyfikuj±c swój
 w³asny plik konfiguracyjny lub ogólnosystemowy.
 
