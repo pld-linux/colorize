@@ -9,7 +9,7 @@ License:	GPL
 URL:		http://colorize.raszi.hu/
 Source0:	http://colorize.raszi.hu/download/%{name}_%{version}.tar.gz
 # Source0-md5:	7f0fb9c6759b8c2280fe832ba15f5007
-Buildarch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
