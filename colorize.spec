@@ -1,3 +1,4 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	Perl script to colorize logs
 Summary(pl):	Skrypt w perlu do kolorowania logów
 Name:		colorize
@@ -27,8 +28,9 @@ w³asny plik konfiguracyjny lub ogólnosystemowy.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_sysconfdir}}
+
 install colorize.pl $RPM_BUILD_ROOT%{_bindir}/colorize.pl
-install colorize.pl.1.gz $RPM_BUILD_ROOT%{_mandir}/man1/colorize.pl.1.gz
+install colorize.pl.1.gz $RPM_BUILD_ROOT%{_mandir}/man1/
 install colorizerc $RPM_BUILD_ROOT%{_sysconfdir}/colorizerc
 
 %clean
@@ -36,7 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc changelog.gz copyright examples/ README THANKS TIPS TODO
 %attr(755,root,root) %{_bindir}/colorize.pl
 %{_mandir}/man1/colorize.pl.1*
 %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/colorizerc
-%doc changelog.gz copyright examples/ README THANKS TIPS TODO
