@@ -8,6 +8,7 @@ Group:		Applications/Text
 License:	GPL
 URL:		http://colorize.raszi.hu/
 Source0:	http://colorize.raszi.hu/download/%{name}_%{version}.tar.gz
+# Source0-md5:	f6b1c9760a296e378d341e7bff503594
 Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
