@@ -3,7 +3,7 @@ Summary:	Perl script to colorize logs
 Summary(pl):	Skrypt w perlu do kolorowania logów
 Name:		colorize
 Version:	0.3.3
-Release:	1
+Release:	2
 Group:		Applications/Text
 License:	GPL
 URL:		http://colorize.raszi.hu/
