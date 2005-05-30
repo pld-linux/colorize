@@ -9,6 +9,7 @@ License:	GPL
 Source0:	http://colorize.raszi.hu/download/%{name}_%{version}.tar.gz
 # Source0-md5:	1fab421342cf02b4b6bc9ccb8234c232
 URL:		http://colorize.raszi.hu/
+BuildRequires:	perl-base
 Requires:	perl-Term-ANSIColor
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
