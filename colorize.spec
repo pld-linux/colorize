@@ -21,8 +21,8 @@ directory, or system-wide (/etc/colorize).
 
 %description -l pl
 Colorize jest krótkim skryptem w Perlu umo¿liwiaj±cym pokolorowanie
-logów. Mo¿na u¿ywaæ w³asnych schematów kolorów modyfikuj±c swój
-w³asny plik konfiguracyjny lub ogólnosystemowy.
+logów. Mo¿na u¿ywaæ w³asnych schematów kolorów modyfikuj±c swój w³asny
+plik konfiguracyjny lub ogólnosystemowy.
 
 %prep
 %setup -q
@@ -43,4 +43,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc changelog.gz copyright examples/ README THANKS TIPS TODO
 %attr(755,root,root) %{_bindir}/colorize
 %{_mandir}/man1/colorize.1*
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/colorizerc
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/colorizerc
