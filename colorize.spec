@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Perl script to colorize logs
 Summary(pl.UTF-8):	Skrypt w Perlu do kolorowania logów
 Name:		colorize
